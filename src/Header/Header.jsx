@@ -19,6 +19,7 @@ function Header() {
                 </nav>
                 <img src={Menu} alt="" className="menu-icon" />
             </div>
+                <h1>Header</h1>
         </div>
     )
 }
