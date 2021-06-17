@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import Logo from '../images/logo.png';
-import Menu from '../images/menu.png';
-import Banner from '../images/plan.jpg';
+import Logo from '../../images/logo.png';
+import Menu from '../../images/menu.png';
+import Banner from '../../images/plan.jpg';
 
 function Header() {
     return (
