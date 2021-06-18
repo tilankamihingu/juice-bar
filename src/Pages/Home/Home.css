@@ -1,3 +1,7 @@
+.full{
+    width: 100%;
+}
+
 .home-container{
     width: 100%;
     height: 100vh;
@@ -55,4 +59,32 @@ span{
 
 button:hover span{
     height: 100%;
+}
+
+/*------------second container------------*/
+
+.second-container{
+    background-color: #272D39;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.second-left-side{
+    flex-basis: 40%;
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+}
+
+.second-left-side img{
+    max-width: 250px;
+    margin-left: 60px;
+}
+
+.second-left-details{
+    background-color: brown;
+    width: 200px;
 }
