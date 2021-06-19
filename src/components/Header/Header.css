@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #99a1ac;
+    background: #252529;
     position: fixed;
     z-index: 1000;
 }

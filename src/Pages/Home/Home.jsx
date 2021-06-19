@@ -18,17 +18,21 @@ const Home = () => {
             <div className="second-container">
                 <div className="second-left-side">
                     <div className="second-left-details">
-                        <p>get your energy drink</p>
+                        <h3>get your energy drink</h3>
                         <h1>Juice</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia recusandae neque odit tenetur eum ipsum nesciunt amet ullam deleniti excepturi iusto quas error, perspiciatis possimus eaque sequi? Est, vitae quos?</p>
+                        <h4>150ml pure lemon</h4>
+                        <h2>See More</h2>
                     </div>
                     <img src={Lemon} alt="" />
                 </div>
                 <div className="second-right-side">
                     <div className="second-right-details">
-                        <p>get your energy drink</p>
+                        <h3>get your energy drink</h3>
                         <h1>Juice</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia recusandae neque odit tenetur eum ipsum nesciunt amet ullam deleniti excepturi iusto quas error, perspiciatis possimus eaque sequi? Est, vitae quos?</p>
+                        <h4>150ml Pure Milk</h4>
+                        <h2>See More</h2>
                     </div>
                     <img src={Milk} alt="" />
                 </div>
