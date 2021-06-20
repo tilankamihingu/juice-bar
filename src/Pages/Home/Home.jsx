@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import Milk from '../../images/milk.png';
 import Lemon from '../../images/lemon.png';
+import Mission from '../../images/banner.jpeg';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/*---------second container-------------*/}
             <div className="second-container">
                 <div className="second-left-side">
                     <div className="second-left-details">
@@ -35,6 +37,31 @@ const Home = () => {
                         <h2>See More</h2>
                     </div>
                     <img src={Milk} alt="" />
+                </div>
+            </div>
+            <div className="third-container">
+                <div className="third-container-left">
+                    <h3>That A Look And find out more about</h3>
+                    <h1>our mission</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem quaerat in, molestiae recusandae, eveniet eligendi repellat voluptatem, rerum enim asperiores a vitae facilis nulla voluptate maiores. Cum, eveniet corporis!</p>
+                    <h2>Find out more about us</h2>
+                </div>
+                <div className="third-container-right">
+                    <img src={Mission} alt="" />
+                </div>
+            </div>
+            <div className="fourth-container">
+                <div className="fourth-container-left">
+                   <img src={Mission} alt="" />
+                </div>
+                <div className="fourth-container-right">
+                    <h3>Where Do I Buy</h3>
+                    <h1>Store finder</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <div className="fourth-bottom">
+                        <input type="text" placeholder="Enter the Postcode" />
+                        <button className="fourth">Find Store</button>
+                    </div>
                 </div>
             </div>
         </div>
