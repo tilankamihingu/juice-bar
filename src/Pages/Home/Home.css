@@ -66,7 +66,7 @@ button:hover span{
 .second-container{
     background-color: #272D39;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 60px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -198,7 +198,7 @@ button:hover span{
 .third-container{
     background-color: #DD3333;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -261,7 +261,7 @@ button:hover span{
 .fourth-container{
     background-color: #0D3338;
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -271,8 +271,6 @@ button:hover span{
     flex-basis: 50%;
     padding: 10px;
 }
-
-
 
 .fourth-container-right h3{
     font-size: 18px;
@@ -327,6 +325,69 @@ button:hover span{
 }
 
 .fourth-container-left img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*---------------fifth container---------------*/
+
+.fifth-container{
+    background-color: #3f2c2c;
+    width: 100%;
+    padding: 40px 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-container-left{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.fifth-container-left h2{
+    margin-top: 20px;
+    color: #fff;
+    border-top: 3px dashed #fff;
+    padding-top: 5px;
+    font-size: 27px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.fifth-container-left h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.fifth-container-left h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: #fff;
+    border-bottom: 3px dashed #fff;
+}
+
+.fifth-container-left p{
+    line-height: 20px;
+    color: #fff;
+}
+
+.fifth-container-right{
+    flex-basis: 40%;
+    padding: 10px;
+}
+
+.fifth-container-right img{
     width: 100%;
     object-fit: cover;
     display: block;

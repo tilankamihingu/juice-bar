@@ -3,6 +3,7 @@ import './Header.css';
 import Logo from '../../images/logo.png';
 import Menu from '../../images/menu.png';
 import Banner from '../../images/plan.jpg';
+import {Link} from 'react-router-dom';
 
 function Header() {
     return (
@@ -11,10 +12,10 @@ function Header() {
                 <img src={Logo} alt="" className="logo" />
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">products</Link></li>
+                        <li><Link to="#">contact Us</Link></li>
+                        <li><Link to="#">Bucket</Link></li>
                     </ul>
                 </nav>
                 <img src={Menu} alt="" className="menu-icon" />

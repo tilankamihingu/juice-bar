@@ -3,6 +3,7 @@ import './Home.css';
 import Milk from '../../images/milk.png';
 import Lemon from '../../images/lemon.png';
 import Mission from '../../images/banner.jpeg';
+import Green from '../../images/green.jpg';
 
 const Home = () => {
     return (
@@ -62,6 +63,17 @@ const Home = () => {
                         <input type="text" placeholder="Enter the Postcode" />
                         <button className="fourth">Find Store</button>
                     </div>
+                </div>
+            </div>
+            <div className="fifth-container">
+                <div className="fifth-container-left">
+                    <h3>from our blog</h3>
+                    <h1>very green smooth recipe</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias illo hic quod veniam corporis ea? Ab, architecto aspernatur.</p>
+                    <h2>Read More</h2>
+                </div>
+                <div className="fifth-container-right">
+                    <img src={Green} alt="" />
                 </div>
             </div>
         </div>
