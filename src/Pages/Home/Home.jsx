@@ -4,17 +4,31 @@ import Milk from '../../images/milk.png';
 import Lemon from '../../images/lemon.png';
 import Mission from '../../images/banner.jpeg';
 import Green from '../../images/green.jpg';
+import Saree from '../../images/saree.png'
 
 const Home = () => {
     return (
         <div className="full">
             <div className="home-container">
-                <div className="content">
+                {/*<div className="content">
                     <h1>Choose Your Juice</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, ipsum?</p>
                     <div>
                         <button type="button"><span></span> View Items</button>
                     </div>
+                </div>
+    <img src={Green} alt="" />*/}
+                <div className="home-content">
+                <div className="home-left">
+                    <h1>Choose Your Juice</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis.</p>
+                    <div>
+                        <button type="button"><span></span>View Items</button>
+                    </div>
+                </div>
+                <div className="home-right">
+                    <img src={Lemon} alt="" />
+                </div>
                 </div>
             </div>
             {/*---------second container-------------*/}
