@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { DataContext } from '../../components/Context';
+import { DataContext } from '../../components/DataProvider';
 import './Products.css';
 import Cim from '../../images/green.jpg';
 
@@ -13,7 +13,7 @@ const Products = () => {
                 {
                     products.map(product => (
                         <div className="product-card">
-                            <img src={product.src} alt="" />
+                            <img src={product.images} alt="" />
                             <div className="card-details">
                                 <h2>{product.title}</h2>
                                 <p>{product.description}</p>
