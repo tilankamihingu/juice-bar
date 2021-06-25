@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { DataProvider } from './components/DataProvider';
+import { DataProvider } from './components/Context';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './Pages/Home/Home';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/products">
             <Products />
           </Route>
-          <Route path="/details">
+          <Route path="/products/:id">
             <Details />
           </Route>
         </Switch>

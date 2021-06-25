@@ -1,21 +1,26 @@
-import React, { useContext } from 'react';
-import { DataContext } from '../../components/DataProvider';
+import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 import './Products.css';
-import Cim from '../../images/green.jpg';
+import { DataContext } from '../../components/Context';
 
-const Products = () => {
-    const value = useContext(DataContext)
-    const [products] = value.products
-    return (
-        <div className="product-full">
-        <div className="product-container">
+export class Products extends Component {
+
+    static contextType = DataContext;
+
+    render() {
+        const {products} = this.context;
+        return (
+            <div className="product-full">
+            <div className="product-container">
             <div className="product-row">
                 {
                     products.map(product => (
-                        <div className="product-card">
-                            <img src={product.images} alt="" />
+                        <div className="product-card" key={product._id}>
+                            <Link to = {`/products/${product._id}`} >
+                                <img src={product.images} alt="" />
+                            </Link>
                             <div className="card-details">
-                                <h2>{product.title}</h2>
+                                <Link to = {`/products/${product._id}`}><h2>{product.title}</h2></Link>
                                 <p>{product.description}</p>
                                 <h3>{product.price}</h3>
                                 <button className="card-btn">View</button>
@@ -26,7 +31,8 @@ const Products = () => {
             </div>
         </div>
         </div>
-    )
+        )
+    }
 }
 
 export default Products
