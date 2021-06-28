@@ -20,7 +20,7 @@ function App() {
           <Route path="/products">
             <Products />
           </Route>
-          <Route path="/products/:id">
+          <Route path="/details/:id">
             <Details />
           </Route>
         </Switch>
