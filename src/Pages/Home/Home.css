@@ -75,7 +75,7 @@
     line-height: 25px;
 }
 
-.home-left button{
+button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -90,7 +90,7 @@
     overflow: hidden;
 }
 
-.home-left span{
+span{
     background: #009688;
     height: 0;
     width: 100%;
@@ -102,7 +102,7 @@
     transition: 0.5s;
 }
 
-.home-left button:hover span{
+button:hover span{
     height: 100%;
 }
 
@@ -360,8 +360,10 @@
 .fourth{
     background-color: #708500;
     width: 200px;
+    margin-left: 20px;
     border: none;
     border-radius: 0;
+    color: #fff;
 }
 
 .fourth-container-left{
