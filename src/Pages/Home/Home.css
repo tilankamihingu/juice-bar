@@ -4,8 +4,8 @@
 
 .home-container{
     width: 100%;
-    height: 90vh;
-    background-color: antiquewhite;
+    height: 100vh;
+    /*background-color: antiquewhite;*/
     /*background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../../images/banner.jpeg);
     background-size: cover;
     background-position: center;*/
@@ -13,8 +13,9 @@
 
 .home-content{
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
-    background-color: chocolate;
+    /*background-color: chocolate;*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -24,13 +25,13 @@
 }
 
 .home-left{
-    background-color: brown;
+    /*background-color: brown;*/
     flex-basis: 40%;
     margin-right: 40px;
 }
 
 .home-left h1{
-    font-size: 70px;
+    font-size: 57px;
     margin-top: 80px;
 }
 
@@ -46,11 +47,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
 }
 
 .home-right img{
-    max-width: 400px;
+    max-width: 650px;
+    max-height: 650px;
 }
 
 .content{
@@ -73,22 +75,22 @@
     line-height: 25px;
 }
 
-button{
+.home-left button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 20px 0px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #009688;
     background: transparent;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     position: relative;
     overflow: hidden;
 }
 
-span{
+.home-left span{
     background: #009688;
     height: 0;
     width: 100%;
@@ -100,7 +102,7 @@ span{
     transition: 0.5s;
 }
 
-button:hover span{
+.home-left button:hover span{
     height: 100%;
 }
 

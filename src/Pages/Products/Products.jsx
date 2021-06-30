@@ -21,7 +21,7 @@ export default function Products(){
                             <Link to = {`/details/${product._id}`}><h2>{product.title}</h2></Link>
                             <p>{product.description}</p>
                             <h3>{product.price}</h3>
-                            <button className="card-btn">View</button>
+                            <Link to={`/details/${product._id}`}><button className="card-btn">View</button></Link>
                         </div>
                     </div>
                 ))
