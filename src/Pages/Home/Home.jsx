@@ -4,7 +4,7 @@ import Milk from '../../images/milk.png';
 import Lemon from '../../images/lemon.png';
 import Mission from '../../images/banner.jpeg';
 import Green from '../../images/green.jpg';
-import Banner from '../../images/ban.png';
+import Banner from '../../images/homeban.png';
 
 const Home = () => {
     return (
