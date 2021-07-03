@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Home from './Pages/Home/Home';
 import Products from './Pages/Products/Products';
 import Details from './Pages/ProductDetails/Details';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Details />
           </Route>
         </Switch>
+        <Footer />
       </div>
       </DataProvider>
     </Router>
