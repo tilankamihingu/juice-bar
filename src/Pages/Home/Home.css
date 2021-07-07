@@ -13,9 +13,8 @@
 
 .home-content{
     display: flex;
-    flex-wrap: wrap;
     padding: 20px;
-    /*background-color: chocolate;*/
+   /* background-color: chocolate;*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -52,6 +51,7 @@
 
 .home-right img{
     max-width: 650px;
+    width: 100%;
     max-height: 650px;
 }
 
@@ -109,13 +109,12 @@ button:hover span{
 /*------------second container------------*/
 
 .second-container{
-    background-color: #272D39;
+    background-color: #086972;
     width: 100%;
     padding: 20px 20px 60px;
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .second-left-side{
@@ -241,11 +240,10 @@ button:hover span{
 /*----------------third container--------------*/
 
 .third-container{
-    background-color: #DD3333;
+    background-color:none;
     width: 100%;
     padding: 20px 20px 60px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -257,8 +255,8 @@ button:hover span{
 
 .third-container-left h2{
     margin-top: 20px;
-    color: #fff;
-    border-top: 3px dashed #fff;
+    color: #000;
+    border-top: 3px dashed #000;
     padding-top: 5px;
     font-size: 27px;
     cursor: pointer;
@@ -268,7 +266,7 @@ button:hover span{
 .third-container-left h3{
     font-size: 18px;
     font-weight: 800;
-    color: #fff;
+    color: #000;
     margin-bottom: 20px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -281,13 +279,13 @@ button:hover span{
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 2.5px;
-    color: #fff;
-    border-bottom: 3px dashed #fff;
+    color: #000;
+    border-bottom: 3px dashed #000;
 }
 
 .third-container-left p{
     line-height: 20px;
-    color: #fff;
+    color: #000;
 }
 
 .third-container-right{
@@ -301,10 +299,71 @@ button:hover span{
     display: block;
 }
 
+/*----------special-container------------*/
+.special-item{
+    background-color:crimson;
+    width: 100%;
+    padding: 20px 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.special-item-left{
+    flex-basis: 40%;
+    padding: 10px;
+}
+
+.third-container-left h2{
+    margin-top: 20px;
+    color: #000;
+    border-top: 3px dashed #000;
+    padding-top: 5px;
+    font-size: 27px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.third-container-left h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.special-item-left h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: #000;
+    border-bottom: 3px dashed #000;
+}
+
+.special-item-left p{
+    line-height: 20px;
+    color: #000;
+}
+
+.special-item-right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.special-item-right img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 /*----------fourth-container-------------*/
 
 .fourth-container{
-    background-color: #0D3338;
+    background-color: #086972;
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
@@ -377,6 +436,68 @@ button:hover span{
     display: block;
 }
 
+/*--------------item products-----------------*/
+.product-items-full{
+    background-color: #F7F4F4;
+    width: 100%;
+}
+.product-items-container{
+    width: 100%;
+    /*background-color: blanchedalmond;*/
+    padding: 10px;
+}
+
+.product-items-row{
+    width: 100%;
+    padding: 10px;
+    /*background-color: brown;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.product-items-card{
+    max-width: 340px;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    padding: 15px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.product-items-card img{
+    width: 100%;
+    height: 100%;
+    max-height: 240px;
+    display: block;
+    object-fit: cover;
+}
+
+.product-items-details{
+    /*background-color: cadetblue;*/
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product-items-details h2{
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.card-details p{
+    color: #000;
+    margin-top: 10px;
+}
+
+
+
 /*---------------fifth container---------------*/
 
 .fifth-container{
@@ -384,7 +505,6 @@ button:hover span{
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -438,4 +558,34 @@ button:hover span{
     width: 100%;
     object-fit: cover;
     display: block;
+}
+
+@media screen and (max-width:700px){
+    .home-content {
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+
+    .home-left h1{
+        font-size: 37px;
+        margin-top: 20px;
+    }
+
+    .home-left p{
+        line-height: 22px;
+    }
+
+    /*-------second container-------*/
+
+    .second-container{
+        flex-direction: column;
+    }
+
+    .second-left-side{
+        flex-direction: column-reverse;
+    }
+
+    .second-right-side{
+        flex-direction: column-reverse;
+    }
 }

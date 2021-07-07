@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from '../../components/carousels/Slider';
 import './Home.css';
 import Milk from '../../images/milk.png';
 import Lemon from '../../images/lemon.png';
@@ -54,6 +55,18 @@ const Home = () => {
                     <img src={Milk} alt="" />
                 </div>
             </div>
+            {/*--------special items----------*/}
+            <div className="special-item">
+                <div className="special-item-left">
+                    <h1>Our Special</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit ex neque, sed aperiam repudiandae. Nihil quas voluptate dolore cumque optio accusantium neque laborum, impedit quaerat voluptatibus minima dolorum nulla.
+                    Hic sed incidunt voluptates, cum quam inventore dolorum aut non nemo labore tenetur debitis, perspiciatis dolor vero beatae eos. Corporis optio sit expedita voluptates eveniet impedit beatae suscipit totam natus!</p>
+                </div>
+                <div className="special-item-right">
+                    <img src={Mission} alt="" />
+                </div>
+            </div>
+            {/*----------third container---------*/}
             <div className="third-container">
                 <div className="third-container-left">
                     <h3>That A Look And find out more about</h3>
@@ -65,6 +78,7 @@ const Home = () => {
                     <img src={Mission} alt="" />
                 </div>
             </div>
+            {/*------------fourth container---------*/}
             <div className="fourth-container">
                 <div className="fourth-container-left">
                    <img src={Mission} alt="" />
@@ -79,6 +93,36 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/*--------------product items---------------*/}
+            <div className="product-items-full">
+                <div className="product-items-container">
+                    <div className="product-items-row">
+                        <div className="product-items-card">
+                            <img src={Milk} alt="" />
+                            <div className="product-items-details">
+                                <h2>Milk</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
+                            </div>
+                        </div>
+                        <div className="product-items-card">
+                            <img src={Milk} alt="" />
+                            <div className="product-items-details">
+                                <h2>Milk</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
+                            </div>
+                        </div>
+                        <div className="product-items-card">
+                            <img src={Milk} alt="" />
+                            <div className="product-items-details">
+                                <h2>Milk</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <Slider />
+                </div>
+            </div>
+            {/*--------------fifth container------------*/}
             <div className="fifth-container">
                 <div className="fifth-container-left">
                     <h3>from our blog</h3>
