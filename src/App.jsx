@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home';
 import Products from './Pages/Products/Products';
 import Details from './Pages/ProductDetails/Details';
 import Footer from './components/Footer/Footer';
+import Admin from './Pages/Admin/Admin';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/details/:id">
             <Details />
+          </Route>
+          <Route path="/admin">
+            <Admin />
           </Route>
         </Switch>
         <Footer />

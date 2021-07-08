@@ -23,7 +23,7 @@ function Header() {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/products">products</Link></li>
                         <li><Link to="#">contact Us</Link></li>
-                        <li><Link to="#">Bucket</Link></li>
+                        <li><Link to="/admin">Admin</Link></li>
                         <li onClick={toggleMenu}><img src={Menu} className="menu" alt="" /></li>
                     </ul>
                 </nav>

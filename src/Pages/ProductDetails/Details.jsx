@@ -1,8 +1,7 @@
-import React,{useContext, useState, useRef} from 'react';
+import React,{ useContext } from 'react';
 import {useParams} from 'react-router-dom';
 import {DataContext} from '../../components/Context';
 import './Details.css';
-import {Link} from 'react-router-dom';
 
 export default function Details(){
     const {id} = useParams();
