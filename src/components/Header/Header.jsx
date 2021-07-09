@@ -22,7 +22,7 @@ function Header() {
                     <ul style={styleMenu}>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/products">products</Link></li>
-                        <li><Link to="#">contact Us</Link></li>
+                        <li><Link to="/contacts">contact Us</Link></li>
                         <li><Link to="/admin">Admin</Link></li>
                         <li onClick={toggleMenu}><img src={Menu} className="menu" alt="" /></li>
                     </ul>

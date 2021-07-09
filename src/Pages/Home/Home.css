@@ -109,7 +109,8 @@ button:hover span{
 /*------------second container------------*/
 
 .second-container{
-    background-color: #086972;
+   /* background-color: #086972;*/
+   background-color: #086972;
     width: 100%;
     padding: 20px 20px 60px;
     align-items: center;
@@ -363,7 +364,8 @@ button:hover span{
 /*----------fourth-container-------------*/
 
 .fourth-container{
-    background-color: #086972;
+   /* background-color: #086972;*/
+   background-color: #facf5a;
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
@@ -635,7 +637,7 @@ button:hover span{
 @media screen and (max-width:700px){
     .home-content {
         flex-direction: column-reverse;
-        margin-top: 60px;
+        margin-top: 65px;
     }
 
     .home-left h1{
@@ -651,6 +653,7 @@ button:hover span{
 
     .second-container{
         flex-direction: column;
+        margin-top: 120px;
     }
 
     .second-left-side{
@@ -659,5 +662,23 @@ button:hover span{
 
     .second-right-side{
         flex-direction: column-reverse;
+    }
+
+    /*----------third cntainer---------*/
+
+    .third-container{
+        flex-direction: column;
+    }
+
+    /*-----------fourth container--------*/
+
+    .fourth-container{
+        flex-direction: column-reverse;
+    }
+
+    /*------------fifth container-------*/
+
+    .fifth-container{
+        flex-direction: column;
     }
 }

@@ -8,6 +8,7 @@ import Products from './Pages/Products/Products';
 import Details from './Pages/ProductDetails/Details';
 import Footer from './components/Footer/Footer';
 import Admin from './Pages/Admin/Admin';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/admin">
             <Admin />
+          </Route>
+          <Route path="/contacts">
+            <Contact />
           </Route>
         </Switch>
         <Footer />

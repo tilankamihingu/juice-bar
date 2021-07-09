@@ -23,14 +23,6 @@ const Footer = () => {
                         <p>Copyright@tilankamihingu</p>
                     </div>
                     <div className="right-box">
-                        {/*<Map google={this.props.google} zoom={14} >
-                            <Marker onClick={this.onMarkerClick} name={`current location`} />
-                            <InfoWindow onClose={this.onInfoWindowClose}>
-                                <div>
-                                    <h1>{this.state.selectedPlace.name}</h1>
-                                </div>
-                            </InfoWindow>
-    </Map>*/}
                         <Map />
                     </div>
                 </div>
@@ -39,7 +31,4 @@ const Footer = () => {
     )
 }
 export default Footer
-/*export default GoogleApiWrapper ({
-    apiKey: ("AIzaSyAvd1agCML8jpOIjIze23E98gQ_O5EaH3A")
-})(Footer)*/
 

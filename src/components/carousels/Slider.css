@@ -27,3 +27,9 @@
     display: block;
     object-fit: cover;
 }
+
+@media  screen and (max-width:700px) {
+    .item{
+        height: 200px;
+    }
+}
