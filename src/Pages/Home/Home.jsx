@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { DataContext } from '../../components/Context';
 import Slider from '../../components/carousels/Slider';
 import './Home.css';
 import Milk from '../../images/milk.png';
-import Lemon from '../../images/lemon.png';
-import Mission from '../../images/banner.jpeg';
+import Lemon from '../../images/lem.png';
+import Mission from '../../images/mission.jpg';
+import Store from '../../images/store.jpg';
 import Green from '../../images/green.jpg';
-import Banner from '../../images/homeban.png';
+import Banner from '../../images/banfinel.png';
 
 const Home = () => {
+    const value = useContext(DataContext)
+    const [specials] = value.specials
     return (
         <div className="full">
             <div className="home-container">
@@ -55,7 +59,7 @@ const Home = () => {
                     <img src={Milk} alt="" />
                 </div>
             </div>
-            {/*--------special items----------*/}
+            {/*--------special items----------
             <div className="special-item">
                 <div className="special-item-left">
                     <h1>Our Special</h1>
@@ -65,7 +69,7 @@ const Home = () => {
                 <div className="special-item-right">
                     <img src={Mission} alt="" />
                 </div>
-            </div>
+            </div>*/}
             {/*----------third container---------*/}
             <div className="third-container">
                 <div className="third-container-left">
@@ -81,7 +85,7 @@ const Home = () => {
             {/*------------fourth container---------*/}
             <div className="fourth-container">
                 <div className="fourth-container-left">
-                   <img src={Mission} alt="" />
+                   <img src={Store} alt="" />
                 </div>
                 <div className="fourth-container-right">
                     <h3>Where Do I Buy</h3>
@@ -95,29 +99,20 @@ const Home = () => {
             </div>
             {/*--------------product items---------------*/}
             <div className="product-items-full">
+                <h1>Special Items</h1>
                 <div className="product-items-container">
                     <div className="product-items-row">
-                        <div className="product-items-card">
-                            <img src={Milk} alt="" />
-                            <div className="product-items-details">
-                                <h2>Milk</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
+                        {
+                            specials.map(special =>(
+                                <div className="product-items-card" key={special._id}>
+                                    <img src={special.images} alt="" />
+                                <div className="product-items-details">
+                                        <h2>{special.title}</h2>
+                                        <p>{special.description}</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="product-items-card">
-                            <img src={Milk} alt="" />
-                            <div className="product-items-details">
-                                <h2>Milk</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
-                            </div>
-                        </div>
-                        <div className="product-items-card">
-                            <img src={Milk} alt="" />
-                            <div className="product-items-details">
-                                <h2>Milk</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt doloremque distinctio facere expedita, obcaecati nemo quia inventore vel? Officiis nemo animi, neque perspiciatis maiores explicabo sapiente totam nisi accusamus.</p>
-                            </div>
-                        </div>
+                            ))
+                        }
                     </div>
                     <Slider />
                 </div>
@@ -132,6 +127,16 @@ const Home = () => {
                 </div>
                 <div className="fifth-container-right">
                     <img src={Green} alt="" />
+                </div>
+            </div>
+            <div className="fruits">
+                <div className="fruit-container">
+                    <div className="fruit-row">
+                    <div className="fruit-card">
+                            <img src={Mission} alt="" />
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

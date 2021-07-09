@@ -4,7 +4,11 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import './Slider.css';
 import Milk from '../../images/milk.png';
-import Lemon from '../../images/lemon.png'
+import Lemon from '../../images/lemon.png';
+import One from '../../images/one.png';
+import Two from '../../images/two.png';
+import Three from '../../images/three.png';
+import Five from '../../images/five.png';
 
 function Slider() {
     return (
@@ -18,22 +22,22 @@ function Slider() {
         loop
         >
             <div className="item">
-                <img src={Milk} alt="" />
+                <img src={One} alt="" />
+            </div>
+            <div className="item">
+                <img src={Two} alt="" />
+            </div>
+            <div className="item">
+                <img src={Three} alt="" />
             </div>
             <div className="item">
                 <img src={Lemon} alt="" />
             </div>
             <div className="item">
-                <img src={Milk} alt="" />
-            </div>
-            <div className="item">
-                <img src={Lemon} alt="" />
+                <img src={Five} alt="" />
             </div>
             <div className="item">
                 <img src={Milk} alt="" />
-            </div>
-            <div className="item">
-                <img src={Lemon} alt="" />
             </div>
         </OwlCarousel>
         </div>

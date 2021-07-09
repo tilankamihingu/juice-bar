@@ -64,9 +64,35 @@ export const DataProvider = (props) => {
 
          }
     ])
+    const [special, setSpecial] = useState([
+        {
+            "_id":"001",
+             "title": "Chocolate Smoothie",
+             "images": "https://images.pexels.com/photos/6261272/pexels-photo-6261272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "price": 870.00,
+         },
+         {
+            "_id":"002",
+             "title": "Chocolate Smoothie",
+             "images": "https://images.pexels.com/photos/6261272/pexels-photo-6261272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "price": 650.00,
+
+         },
+         {
+            "_id":"003",
+             "title": "Chocolate Smoothie",
+             "images": "https://images.pexels.com/photos/6261272/pexels-photo-6261272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "price": 400.00,
+
+         }
+    ])
 
     const value = {
         products: [products, setProducts],
+        specials: [special, setSpecial]
     }
 
     return(

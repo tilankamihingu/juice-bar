@@ -299,7 +299,7 @@ button:hover span{
     display: block;
 }
 
-/*----------special-container------------*/
+/*----------special-container------------
 .special-item{
     background-color:crimson;
     width: 100%;
@@ -358,7 +358,7 @@ button:hover span{
     width: 100%;
     object-fit: cover;
     display: block;
-}
+}*/
 
 /*----------fourth-container-------------*/
 
@@ -441,6 +441,13 @@ button:hover span{
     background-color: #F7F4F4;
     width: 100%;
 }
+.product-items-full h1{
+    color: #000;
+    text-align: center;
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
 .product-items-container{
     width: 100%;
     /*background-color: blanchedalmond;*/
@@ -491,9 +498,13 @@ button:hover span{
     letter-spacing: 1.5px;
 }
 
-.card-details p{
+.product-items-details p{
     color: #000;
     margin-top: 10px;
+}
+
+.product-items-details a{
+    text-decoration: none;
 }
 
 
@@ -501,7 +512,7 @@ button:hover span{
 /*---------------fifth container---------------*/
 
 .fifth-container{
-    background-color: #3f2c2c;
+    background-color: #086972;
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
@@ -558,6 +569,67 @@ button:hover span{
     width: 100%;
     object-fit: cover;
     display: block;
+}
+
+/*-----------------fruit container---------------*/
+
+.fruits{
+    background-color: #F7F4F4;
+    width: 100%;
+}
+.fruit-container{
+    width: 100%;
+    /*background-color: blanchedalmond;*/
+    padding: 10px;
+}
+
+.fruit-row{
+    width: 100%;
+    padding: 10px;
+    /*background-color: brown;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.fruit-card{
+    max-width: 340px;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    padding: 15px;
+    margin: 30px;
+    cursor: pointer;
+    background-color: #252529;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.fruit-card img{
+    width: 100%;
+    height: 100%;
+    max-height: 240px;
+    display: block;
+    object-fit: cover;
+}
+
+.fruit-details{
+    background-color: #009688;
+    
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.fruit-details h2{
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.fruit-details p{
+    color: #000;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:700px){
