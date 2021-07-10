@@ -22,7 +22,7 @@ table caption{
 
 table tr{
     border: 10px solid #000;
-    background-color: floralwhite;
+    background-color: #dee1ec;
 }
 
 table th{
@@ -42,7 +42,7 @@ table td img{
 
 .ad-view{
     width: 100px;
-    background-color: gold;
+    background-color: #eac100;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -50,7 +50,7 @@ table td img{
 
 .ad-up{
     width: 100px;
-    background-color: darkblue;
+    background-color: #10316b;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -58,7 +58,7 @@ table td img{
 
 .ad-del{
     width: 100px;
-    background-color: darkred;
+    background-color: #d72323;
     border: none;
     border-radius: 5px;
     color: #fff;

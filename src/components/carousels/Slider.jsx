@@ -3,12 +3,13 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import './Slider.css';
-import Milk from '../../images/milk.png';
-import Lemon from '../../images/lemon.png';
-import One from '../../images/one.png';
-import Two from '../../images/two.png';
-import Three from '../../images/three.png';
-import Five from '../../images/five.png';
+import One from '../../images/one.jpg';
+import Two from '../../images/two.jpg';
+import Three from '../../images/three.jpg';
+import Four from '../../images/four.jpg';
+import Five from '../../images/five.jpg';
+import Six from '../../images/six.jpg';
+
 
 function Slider() {
     return (
@@ -31,13 +32,13 @@ function Slider() {
                 <img src={Three} alt="" />
             </div>
             <div className="item">
-                <img src={Lemon} alt="" />
+                <img src={Four} alt="" />
             </div>
             <div className="item">
                 <img src={Five} alt="" />
             </div>
             <div className="item">
-                <img src={Milk} alt="" />
+                <img src={Six} alt="" />
             </div>
         </OwlCarousel>
         </div>

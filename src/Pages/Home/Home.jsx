@@ -1,5 +1,6 @@
 import React, {useContext, useEffect} from 'react';
 import { DataContext } from '../../components/Context';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Slider from '../../components/carousels/Slider';
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -10,6 +11,10 @@ import Mission from '../../images/mission.jpg';
 import Store from '../../images/store.jpg';
 import Green from '../../images/green.jpg';
 import Banner from '../../images/banfinel.png';
+import Mix from '../../images/mix.jpg';
+import Banana from '../../images/banana.jpg';
+import Stawbery from '../../images/stawbery.jpg';
+import Graps from '../../images/graps.jpg';
 
 const Home = () => {
     const value = useContext(DataContext)
@@ -56,8 +61,8 @@ const Home = () => {
                 </div>
                 <div className="second-right-side">
                     <div className="second-right-details" data-aos="fade-up">
-                        <h3>get your energy drink</h3>
-                        <h1>Juice</h1>
+                        <h3>get your Morning drink</h3>
+                        <h1>Milk</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia recusandae neque odit tenetur eum ipsum nesciunt amet ullam deleniti excepturi iusto quas error, perspiciatis possimus eaque sequi? Est, vitae quos?</p>
                         <h4>150ml Pure Milk</h4>
                         <h2>See More</h2>
@@ -81,7 +86,7 @@ const Home = () => {
                 <div className="third-container-left" data-aos="fade-up">
                     <h3>That A Look And find out more about</h3>
                     <h1>our mission</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem quaerat in, molestiae recusandae, eveniet eligendi repellat voluptatem, rerum enim asperiores a vitae facilis nulla voluptate maiores. Cum, eveniet corporis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem quaerat in, molestiae recusandae, eveniet eligendi repellat voluptatem, rerum enim asperiores a vitae facilis nulla voluptate maiores. Cum, eveniet corporis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloremque aspernatur aut nulla? Nisi voluptatibus tempora ab, repellat inventore est totam consequatur velit veritatis illum in atque odit libero accusamus.</p>
                     <h2>Find out more about us</h2>
                 </div>
                 <div className="third-container-right" data-aos="fade-up">
@@ -138,10 +143,21 @@ const Home = () => {
             <div className="fruits">
                 <div className="fruit-container">
                     <div className="fruit-row" data-aos="fade-up">
-                    <div className="fruit-card">
-                            <img src={Mission} alt="" />
-                            
+                        <div className="fruit-card">
+                            <img src={Mix} alt="" />
                         </div>
+                        <div className="fruit-card">
+                            <img src={Banana} alt="" />
+                        </div>
+                    
+                        <div className="fruit-card">
+                            <img src={Stawbery} alt="" />
+                        </div>
+                    
+                        <div className="fruit-card">
+                            <img src={Graps} alt="" />
+                        </div>
+                    
                     </div>
                 </div>
             </div>

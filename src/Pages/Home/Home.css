@@ -110,7 +110,7 @@ button:hover span{
 
 .second-container{
    /* background-color: #086972;*/
-   background-color: #086972;
+   background-color: #17b978;
     width: 100%;
     padding: 20px 20px 60px;
     align-items: center;
@@ -128,7 +128,7 @@ button:hover span{
 
 .second-left-side img{
     margin-left: 10px;
-    max-width: 260px;
+    max-width: 300px;
 }
 
 .second-left-details{
@@ -176,6 +176,11 @@ button:hover span{
     font-size: 27px;
     cursor: pointer;
     text-align: right;
+    transition: 0.5s;
+}
+
+.second-left-details h2:hover{
+    color: #071a52;
 }
 
 .second-right-side{
@@ -236,6 +241,11 @@ button:hover span{
     font-size: 27px;
     cursor: pointer;
     text-align: right;
+    transition: 0.5s;
+}
+
+.second-right-details h2:hover{
+    color: #071a52;
 }
 
 /*----------------third container--------------*/
@@ -262,6 +272,11 @@ button:hover span{
     font-size: 27px;
     cursor: pointer;
     text-align: right;
+    transition: 0.5s;
+}
+
+.third-container-left h2:hover{
+    color: #071a52;
 }
 
 .third-container-left h3{
@@ -365,7 +380,7 @@ button:hover span{
 
 .fourth-container{
    /* background-color: #086972;*/
-   background-color: #facf5a;
+   background-color: #17b978;
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
@@ -419,7 +434,7 @@ button:hover span{
 }
 
 .fourth{
-    background-color: #708500;
+    background-color: #071a52;
     width: 200px;
     margin-left: 20px;
     border: none;
@@ -440,7 +455,6 @@ button:hover span{
 
 /*--------------item products-----------------*/
 .product-items-full{
-    background-color: #F7F4F4;
     width: 100%;
 }
 .product-items-full h1{
@@ -514,7 +528,7 @@ button:hover span{
 /*---------------fifth container---------------*/
 
 .fifth-container{
-    background-color: #086972;
+    background-color: #17b978;
     width: 100%;
     padding: 40px 20px 80px;
     display: flex;
@@ -535,6 +549,11 @@ button:hover span{
     font-size: 27px;
     cursor: pointer;
     text-align: right;
+    transition: 0.5s;
+}
+
+.fifth-container-left h2:hover{
+    color: #071a52;
 }
 
 .fifth-container-left h3{
@@ -576,7 +595,6 @@ button:hover span{
 /*-----------------fruit container---------------*/
 
 .fruits{
-    background-color: #F7F4F4;
     width: 100%;
 }
 .fruit-container{
@@ -599,11 +617,11 @@ button:hover span{
     max-width: 340px;
     width: 100%;
     overflow: hidden;
-    height: 300px;
+    height: 280px;
     padding: 15px;
     margin: 30px;
     cursor: pointer;
-    background-color: #252529;
+    background-color: #071a52;
     box-shadow: 0 0 5px #ccc;
 }
 

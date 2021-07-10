@@ -13,12 +13,12 @@
     max-width: 600px;
     width: 100%;
     margin-top: 20vh;
-    border: 2px solid #0b8457;
+    border: 2px solid #17b978;
 }
 
 .left-side{
     width: 40%;
-    background: #0b8457;
+    background: #17b978;
     text-align: center;
     display: flex;
 }

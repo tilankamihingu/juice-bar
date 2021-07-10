@@ -12,7 +12,7 @@
 }
 
 .item{
-    background-color: #fff;
+    background-color: #dee1ec;
     box-shadow: 0 0 5px #ccc;
     height: 400px;
     margin: 5px;
@@ -23,6 +23,7 @@
 
 .item img{
     width: 100%;
+    min-height: 200px;
     height: 100%;
     display: block;
     object-fit: cover;
