@@ -94,5 +94,7 @@
     .card-details h2{
         font-size: 18px;
     }
-
+    .product-card{
+        height: 530px;
+    }
 }

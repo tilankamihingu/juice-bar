@@ -20,7 +20,7 @@ export default function Products(){
                         <div className="card-details">
                             <Link to = {`/details/${product._id}`}><h2>{product.title}</h2></Link>
                             <p>{product.description}</p>
-                            <h3>{product.price}</h3>
+                            <h3>Rs.{product.price}</h3>
                             <Link to={`/details/${product._id}`}><button className="card-btn">View</button></Link>
                         </div>
                     </div>

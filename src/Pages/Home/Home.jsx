@@ -1,6 +1,6 @@
 import React, {useContext, useEffect} from 'react';
 import { DataContext } from '../../components/Context';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom';
 import Slider from '../../components/carousels/Slider';
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -39,7 +39,7 @@ const Home = () => {
                     <h1>Choose Your Juice</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto iste quidem, voluptate sit quo esse sunt culpa corporis amet maiores.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto iste quidem, voluptate sit quo esse sunt culpa corporis amet maiores.</p>
                     <div>
-                        <button type="button"><span></span>View Items</button>
+                       <Link to="/products"><button type="button"><span></span>View Items</button></Link> 
                     </div>
                 </div>
                 <div className="home-right">

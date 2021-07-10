@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import './Header.css';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/flog.png';
 import Menu from '../../images/menu.png';
 import {Link} from 'react-router-dom';
+import Close from '../../images/closei.png';
 
 function Header() {
    const [menu, setMenu] = useState(false)
@@ -24,7 +25,7 @@ function Header() {
                         <li><Link to="/products">products</Link></li>
                         <li><Link to="/contacts">contact Us</Link></li>
                         <li><Link to="/admin">Admin</Link></li>
-                        <li onClick={toggleMenu}><img src={Menu} className="menu" alt="" /></li>
+                        <li onClick={toggleMenu}><img src={Close} className="menu" alt="" /></li>
                     </ul>
                 </nav>
                 <div className="menu" onClick={toggleMenu} >
