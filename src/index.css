@@ -14,36 +14,3 @@ code {
     monospace;
 }
 
-/*.move-top{
-  position: fixed;
-  margin-right: 50px;
-  cursor: pointer;
-  bottom: 30px;
-  right: 0;
-  z-index: 1;
-  text-align: center;
-  height: 45px;
-  line-height: 40px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}*/
-.move-top{
-  font-size: 3rem;
-  cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  
-  color: #0F69F3;
-  z-index: 1000;
-}
-
-.move-top:hover{
-  color: #6149DC;
-}
-
-@media screen and (max-width:700px){
-  .move-top{
-    font-size: 2rem;
-}
-}

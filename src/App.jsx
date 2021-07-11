@@ -9,7 +9,7 @@ import Details from './Pages/ProductDetails/Details';
 import Footer from './components/Footer/Footer';
 import Admin from './Pages/Admin/Admin';
 import Contact from './Pages/Contact/Contact';
-import GoTop from './components/ScrollTop';
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
       <DataProvider>
       <div className="App">
         <Header />
-        <GoTop scrollStepInPx="50" delayInMs="30"/>
         <Switch>
           <Route exact path="/">
             <Home />

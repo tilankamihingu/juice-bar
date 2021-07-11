@@ -6,7 +6,7 @@ export const DataProvider = (props) => {
     const[products, setProducts] = useState([
         {
             "_id":"1",
-             "title": "Chocolate Smoothie",
+             "title": "Choco Smoothie",
              "images": "https://images.pexels.com/photos/6261272/pexels-photo-6261272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
